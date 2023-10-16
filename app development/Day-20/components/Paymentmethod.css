@@ -1,0 +1,123 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(218, 218, 216);
+    background-color: #f1c3ec;
+    opacity: 0.8;
+  }
+  .container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #080000;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .error-message {
+    color: #f44336;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  button[type="submit"] {
+    width: 375px;
+    padding: 12px;
+    background-color: #f596eb;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #f57ef7;
+  }
+  
+  
+  body{
+    background-image: url(https://www.hellomagazine.com/imagenes/healthandbeauty/hair/20210223107500/when-will-uk-hairdressers-reopen/0-518-595/hairdressers-t.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .contain {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(218, 218, 216);
+    background-color: #f1c3ec;
+    opacity: 0.8;
+  }
+  
+  .contain h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .formgroup {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #080000;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .error-message {
+    color: #f44336;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  button[type="submit"] {
+    width: 100px;
+    padding: 12px;
+    background-color: #2474c9;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2026e3;
+  }

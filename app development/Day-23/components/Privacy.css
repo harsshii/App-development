@@ -1,0 +1,23 @@
+.privacy-container {
+    width: 900px;
+    height: 900px;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: rgb(250, 185, 231);
+  }
+  
+  .privacy-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .privacy-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  .privacy-container a {
+    margin-right: 10px;
+  }
+  

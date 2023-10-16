@@ -1,0 +1,124 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff; /* Adjust the background color as needed */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a box shadow for a subtle effect */
+  z-index: 999;
+}
+
+/* Other styles for the header remain the same */
+
+/* Styling for the navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 10px; /* Adjust the margin as needed for equal spacing */
+  
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+  font-size: larger;
+  padding-left: 49px;
+}
+
+.nav-item a:hover {
+  color: #f2478b;
+}
+
+.navbar .main-menu-button {
+  padding: 10px;
+}
+.dropdown-menu.active {
+     
+    display: flex;
+  }
+  /* Styling for the dropdown menu */
+  .dropdown-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    background-color: #f9f9f9;
+    /* Adjust right property for right alignment */
+    right: 0; /* This will align the dropdown to the right */
+    padding: 100px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease-in-out; /* Smooth opacity transition */
+  }
+  .navbar:hover .dropdown-menu {
+    display: flex;
+  }
+  
+  .dropdown-menu li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-menu li a {
+    text-decoration: none;
+    color: #000; /* Adjust the color as needed */
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+  }
+  
+  .dropdown-menu li a:hover {
+    color: #ff4500; /* Change color on hover */
+  }
+  
+  /* Styling for the main menu button */
+  .main-menu-button {
+    background: palevioletred;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .main-menu-button:focus {
+    outline: none;
+  }
+  /* Add this CSS to your HeaderComponent.css file */
+
+/* Styling for the dropdown */
+.dropdown {
+    position: relative;
+  }
+  
+  .dropdown-button {
+    cursor: pointer;
+    position: relative; /* Set position to relative */
+    z-index: 2; /* Set a higher z-index to be above other elements */
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 200px; /* Adjust the width as needed */
+  }
+  
+  .dropdown-content a {
+    padding: 10px; /* Adjust padding */
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 14px; /* Adjust font size */
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #f2478b; /* Change color on hover */
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
